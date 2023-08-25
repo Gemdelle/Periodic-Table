@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-h1 {
+/* h1 {
     margin: 0 auto;
     margin-right: 20%;
     position: absolute;
@@ -102,4 +102,97 @@ body {
     align-items: center;
     font-size: 1.3vw;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+} */
+
+
+
+
+
+
+
+
+
+:root {
+    color-scheme: light;
+    color: CanvasText;
+    background-color: Canvas;
+}
+
+#app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+    user-select: none;
+    background-image: URL("./images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#display {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    gap: 4px;
+}
+
+.element {
+    position: relative;
+
+    width: 5vw;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    border: 2px solid black;
+}
+
+.atomic-number {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.special-element {
+    margin-right: auto;
+}
+
+.special-row {
+    justify-content: end;
+}
+
+.shake-x {
+    animation: shakeX 0.5s 2;
+    border-color: red;
+}
+
+@media (min-width: 1440px) {
+    .element {
+        width: 5.2vw;
+    }
+}
+
+@keyframes shakeX {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-5px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(5px);
+    }
 }
