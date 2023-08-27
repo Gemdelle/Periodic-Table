@@ -21,7 +21,6 @@ function handleElementClick(event) {
   const el = event.currentTarget;
   const clickedElement = Number(el.dataset.element);
   if(currentElement.atomicNumber === clickedElement){
-    console.log("Felicidades")
     const index = availableElements.findIndex((elem) => elem.atomicNumber === currentElement.atomicNumber);
     availableElements.splice(index, 1);
 
@@ -30,7 +29,6 @@ function handleElementClick(event) {
     el.removeEventListener("click", handleElementClick);
   }
   else {
-    console.log("Wrong X")
     el.classList.add("shake-x");
     setTimeout(() => {
       el.classList.remove("shake-x");
@@ -55,7 +53,7 @@ function createRowNumber(num) {
 
 function createSpecialCell(str) {
   const specialCell = document.createElement("DIV");
-  specialCell.classList.add("element");
+  specialCell.classList.add("element", "special-cell");
   specialCell.textContent = str;
 
   return specialCell;
