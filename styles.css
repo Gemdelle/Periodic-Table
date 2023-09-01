@@ -4,102 +4,112 @@
     padding: 0;
 }
 
-h1 {
-    margin: 0 auto;
-    margin-right: 20%;
-    position: absolute;
-    bottom: 93vh;
+:root {
+    color-scheme: light;
+    color: CanvasText;
+    background-color: Canvas;
 }
 
-body {
-    background-image: url(images/background.png);
+#app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+    user-select: none;
+    background-image: URL("./images/background.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
 }
 
-.box {
-    height: 100vh;
-    width: 100vw;
-    margin: 0 auto;
+#display {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+
+#skip {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
-.container {
-    width: 90%;
-    height: 95%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+.skipButton {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(96, 240, 243);
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
 }
 
-.element-container {
+.row {
     width: 100%;
-    height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.element-line {
-    width: 100%;
-    height: 8%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.element-line-2 {
-    width: 100%;
-    height: 7.5%;
-    display: flex;
-    justify-content: flex-end;
+    gap: 4px;
 }
 
 .element {
-    height: 100%;
-    width: 6%;
-    background-image: url(images/element-frame.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    position: relative;
+
+    width: 5vw;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    background-color: grey;
+    border: 2px solid black;
 }
 
-.element-line-2 div:nth-child(2) {
-    margin-right: auto;
+.row-number {
+    background-color: rgb(244, 180, 84);
 }
 
 .atomic-number {
-    width: 30%;
-    height: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0.9vw;
-    margin-top: 0.7vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
-.numbers {
-    width: 4%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-right: 1vw;
+.special-element {
+    margin-right: auto;
 }
 
-.line-number {
-    height: 9%;
-    width: 100%;
-    background-image: url(images/number-frame.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.3vw;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+.special-cell {
+    background-color: rgb(238, 245, 147);
+}
+
+.special-row {
+    justify-content: end;
+}
+
+.shake-x {
+    animation: shakeX 0.5s 2;
+    border-color: red;
+}
+
+@media (min-width: 1440px) {
+    .element {
+        width: 5.2vw;
+    }
+}
+
+@keyframes shakeX {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-5px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(5px);
+    }
 }
