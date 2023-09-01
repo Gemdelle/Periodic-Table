@@ -30,6 +30,21 @@
     font-size: 2em;
 }
 
+#skip {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.skipButton {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(96, 240, 243);
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+}
+
 .row {
     width: 100%;
     display: flex;

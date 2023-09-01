@@ -2,6 +2,7 @@ import elements from "./mock-data.js"
 
 const target = document.getElementById("app");
 const nameDisplay = document.getElementById("display");
+const skip = document.getElementById("skip");
 const availableElements = elements.slice();
 let currentElement = generateRandomElement();
 
@@ -210,10 +211,21 @@ function placeElements(elements) {
 
 }
 
+function skipButton(){
+  const button = document.createElement('BUTTON');
+  button.classList.add('skipButton');
+  button.textContent = 'Skip';
+  skip.appendChild(button)
+  button.addEventListener('click', handleSkip)
+}
+
+function handleSkip(){
+  currentElement = generateRandomElement();
+}
 function main() {
 
   placeElements(elements);
-
+  skipButton()
 }
 
 main();
