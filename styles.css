@@ -24,10 +24,51 @@
     overflow-x: hidden;
 }
 
+.display-container {
+    width: 100%;
+    position: relative;
+}
+
 #display {
     width: 100%;
     text-align: center;
     font-size: 2em;
+}
+
+.lang-button-container{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.toggle-btn {
+    width: 50px;
+    height: 30px;
+    background-color: #766161;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    border: 3px solid black;
+    box-sizing: content-box;
+}
+
+/* Estilo para el estado inicial (apagado) */
+.toggle-btn .toggle-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    transition: 0.3s;
+}
+
+/* Estilo para el estado encendido */
+.toggle-btn.active .toggle-circle {
+    left: 20px;
 }
 
 #skip {

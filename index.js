@@ -1,7 +1,9 @@
 import elements from "./mock-data.js"
 
+let currLanguage = 'es';
 const target = document.getElementById("app");
 const nameDisplay = document.getElementById("display");
+const langButton = document.getElementById("toggleLang");
 const skip = document.getElementById("skip");
 const availableElements = elements.slice();
 let currentElement = generateRandomElement();
@@ -12,7 +14,7 @@ function generateRandomElement() {
   }
   else {
     const randomIndex = Math.floor(Math.random() * availableElements.length);
-    nameDisplay.textContent = availableElements[randomIndex].name.es;
+    nameDisplay.textContent = availableElements[randomIndex].name[currLanguage];
 
     return availableElements[randomIndex];
   }
@@ -222,10 +224,27 @@ function skipButton(){
 function handleSkip(){
   currentElement = generateRandomElement();
 }
+
+function ToggleLangButton(){
+  langButton.addEventListener("click", handleToggleLang)
+}
+
+function handleToggleLang(){
+  if (currLanguage === 'es'){
+    currLanguage = 'en';
+  }
+  else if (currLanguage === 'en'){
+    currLanguage = 'es';
+  }
+  langButton.classList.toggle('active');
+  handleSkip()
+}
+
 function main() {
 
   placeElements(elements);
   skipButton()
+  ToggleLangButton()
 }
 
 main();
