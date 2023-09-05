@@ -7,6 +7,7 @@ export default [
 			en: "Hydrogen",
 			es: "Hidrogeno",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 2,
@@ -16,6 +17,7 @@ export default [
 			en: "Helium",
 			es: "Helio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 3,
@@ -25,6 +27,7 @@ export default [
 			en: "Lithium",
 			es: "Litio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 4,
@@ -34,6 +37,7 @@ export default [
 			en: "Beryllium",
 			es: "Berilio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 5,
@@ -43,6 +47,7 @@ export default [
 			en: "Boron",
 			es: "Boro",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 6,
@@ -52,6 +57,7 @@ export default [
 			en: "Carbon",
 			es: "Carbono",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 7,
@@ -61,6 +67,7 @@ export default [
 			en: "Nitrogen",
 			es: "Nitrogeno",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 8,
@@ -70,6 +77,7 @@ export default [
 			en: "Oxygen",
 			es: "Oxigeno",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 9,
@@ -79,6 +87,7 @@ export default [
 			en: "Fluorine",
 			es: "Fluor",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 10,
@@ -88,6 +97,7 @@ export default [
 			en: "Neon",
 			es: "Neon",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 11,
@@ -97,6 +107,7 @@ export default [
 			en: "Sodium",
 			es: "Sodio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 12,
@@ -106,6 +117,7 @@ export default [
 			en: "Magnesium",
 			es: "Magnesio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 13,
@@ -115,6 +127,7 @@ export default [
 			en: "Aluminum",
 			es: "Aluminio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 14,
@@ -124,6 +137,7 @@ export default [
 			en: "Silicon",
 			es: "Silicio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 15,
@@ -133,6 +147,7 @@ export default [
 			en: "Phosphorus",
 			es: "Fosforo",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 16,
@@ -142,6 +157,7 @@ export default [
 			en: "Sulfur",
 			es: "Azufre",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 17,
@@ -151,6 +167,7 @@ export default [
 			en: "Chlorine",
 			es: "Cloro",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 18,
@@ -160,6 +177,7 @@ export default [
 			en: "Argon",
 			es: "Argon",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 19,
@@ -169,6 +187,7 @@ export default [
 			en: "Potassium",
 			es: "Potasio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 20,
@@ -178,6 +197,7 @@ export default [
 			en: "Calcium",
 			es: "Calcio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 21,
@@ -187,6 +207,7 @@ export default [
 			en: "Scandium",
 			es: "Escandio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 22,
@@ -196,6 +217,7 @@ export default [
 			en: "Titanium",
 			es: "Titanio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 23,
@@ -205,6 +227,7 @@ export default [
 			en: "Vanadium",
 			es: "Vanadio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 24,
@@ -214,6 +237,7 @@ export default [
 			en: "Chromium",
 			es: "Cromo",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 25,
@@ -223,6 +247,7 @@ export default [
 			en: "Manganese",
 			es: "Manganeso",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 26,
@@ -232,6 +257,7 @@ export default [
 			en: "Iron",
 			es: "Hierro",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 27,
@@ -241,6 +267,7 @@ export default [
 			en: "Cobalt",
 			es: "Cobalto",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 28,
@@ -250,6 +277,7 @@ export default [
 			en: "Nickel",
 			es: "Niquel",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 29,
@@ -259,6 +287,7 @@ export default [
 			en: "Copper",
 			es: "Cobre",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 30,
@@ -268,6 +297,7 @@ export default [
 			en: "Zinc",
 			es: "Zinc",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 31,
@@ -277,6 +307,7 @@ export default [
 			en: "Gallium",
 			es: "Galio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 32,
@@ -286,6 +317,7 @@ export default [
 			en: "Germanium",
 			es: "Germanio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 33,
@@ -295,6 +327,7 @@ export default [
 			en: "Arsenic",
 			es: "Arsenico",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 34,
@@ -304,6 +337,7 @@ export default [
 			en: "Selenium",
 			es: "Selenio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 35,
@@ -313,6 +347,7 @@ export default [
 			en: "Bromine",
 			es: "Bromo",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 36,
@@ -322,6 +357,7 @@ export default [
 			en: "Krypton",
 			es: "Kripton",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 37,
@@ -331,6 +367,7 @@ export default [
 			en: "Rubidium",
 			es: "Rubidio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 38,
@@ -340,6 +377,7 @@ export default [
 			en: "Strontium",
 			es: "Estroncio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 39,
@@ -349,6 +387,7 @@ export default [
 			en: "Yttrium",
 			es: "Itrio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 40,
@@ -358,6 +397,7 @@ export default [
 			en: "Zirconium",
 			es: "Circonio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 41,
@@ -367,6 +407,7 @@ export default [
 			en: "Niobium",
 			es: "Niobio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 42,
@@ -376,6 +417,7 @@ export default [
 			en: "Molybdenum",
 			es: "Molibdeno",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 43,
@@ -385,6 +427,7 @@ export default [
 			en: "Technetium",
 			es: "Tecnecio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 44,
@@ -394,6 +437,7 @@ export default [
 			en: "Ruthenium",
 			es: "Rutenio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 45,
@@ -403,6 +447,7 @@ export default [
 			en: "Rhodium",
 			es: "Rodio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 46,
@@ -412,6 +457,7 @@ export default [
 			en: "Palladium",
 			es: "Paladio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 47,
@@ -421,6 +467,7 @@ export default [
 			en: "Silver",
 			es: "Plata",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 48,
@@ -430,6 +477,7 @@ export default [
 			en: "Cadmium",
 			es: "Cadmio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 49,
@@ -439,6 +487,7 @@ export default [
 			en: "Indium",
 			es: "Indio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 50,
@@ -448,6 +497,7 @@ export default [
 			en: "Tin",
 			es: "Estano",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 51,
@@ -457,6 +507,7 @@ export default [
 			en: "Antimony",
 			es: "Antimonio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 52,
@@ -466,6 +517,7 @@ export default [
 			en: "Tellurium",
 			es: "Teluro",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 53,
@@ -475,6 +527,7 @@ export default [
 			en: "Iodine",
 			es: "Yodo",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 54,
@@ -484,6 +537,7 @@ export default [
 			en: "Xenon",
 			es: "Xenon",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 55,
@@ -493,6 +547,7 @@ export default [
 			en: "Cesium",
 			es: "Cesio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 56,
@@ -502,6 +557,7 @@ export default [
 			en: "Barium",
 			es: "Bario",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 57,
@@ -511,6 +567,7 @@ export default [
 			en: "Lanthanum",
 			es: "Lantano",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 58,
@@ -520,6 +577,7 @@ export default [
 			en: "Cerium",
 			es: "Cerio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 59,
@@ -529,6 +587,7 @@ export default [
 			en: "Praseodymium",
 			es: "Praseodimio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 60,
@@ -538,6 +597,7 @@ export default [
 			en: "Neodymium",
 			es: "Neodimio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 61,
@@ -547,6 +607,7 @@ export default [
 			en: "Promethium",
 			es: "Prometio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 62,
@@ -556,6 +617,7 @@ export default [
 			en: "Samarium",
 			es: "Samario",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 63,
@@ -565,6 +627,7 @@ export default [
 			en: "Europium",
 			es: "Europio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 64,
@@ -574,6 +637,7 @@ export default [
 			en: "Gadolinium",
 			es: "Gadolin",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 65,
@@ -583,6 +647,7 @@ export default [
 			en: "Terbium",
 			es: "Terbio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 66,
@@ -592,6 +657,7 @@ export default [
 			en: "Dysprosium",
 			es: "Disprosio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 67,
@@ -601,6 +667,7 @@ export default [
 			en: "Holmium",
 			es: "Holmio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 68,
@@ -610,6 +677,7 @@ export default [
 			en: "Erbium",
 			es: "Erbio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 69,
@@ -619,6 +687,7 @@ export default [
 			en: "Thulium",
 			es: "Tulio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 70,
@@ -628,6 +697,7 @@ export default [
 			en: "Ytterbium",
 			es: "Iterbio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 71,
@@ -637,6 +707,7 @@ export default [
 			en: "Lutetium",
 			es: "Lutecio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 72,
@@ -646,6 +717,7 @@ export default [
 			en: "Hafnium",
 			es: "Hafnio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 73,
@@ -655,6 +727,7 @@ export default [
 			en: "Tantalum",
 			es: "Tantalio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 74,
@@ -664,6 +737,7 @@ export default [
 			en: "Tungsten",
 			es: "Wolframio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 75,
@@ -673,6 +747,7 @@ export default [
 			en: "Rhenium",
 			es: "Renio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 76,
@@ -682,6 +757,7 @@ export default [
 			en: "Osmium",
 			es: "Osmio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 77,
@@ -691,6 +767,7 @@ export default [
 			en: "Iridium",
 			es: "Iridio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 78,
@@ -700,6 +777,7 @@ export default [
 			en: "Platinum",
 			es: "Platino",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 79,
@@ -709,6 +787,7 @@ export default [
 			en: "Gold",
 			es: "Oro",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 80,
@@ -718,6 +797,7 @@ export default [
 			en: "Mercury",
 			es: "Mercurio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 81,
@@ -727,6 +807,7 @@ export default [
 			en: "Thallium",
 			es: "Talio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 82,
@@ -736,6 +817,7 @@ export default [
 			en: "Lead",
 			es: "Plomo",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 83,
@@ -745,6 +827,7 @@ export default [
 			en: "Bismuth",
 			es: "Bismuto",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 84,
@@ -754,6 +837,7 @@ export default [
 			en: "Polonium",
 			es: "Polonio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 85,
@@ -763,6 +847,7 @@ export default [
 			en: "Astatine",
 			es: "Astato",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 86,
@@ -772,6 +857,7 @@ export default [
 			en: "Radon",
 			es: "Radon",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 87,
@@ -781,6 +867,7 @@ export default [
 			en: "Francium",
 			es: "Francio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 88,
@@ -790,6 +877,7 @@ export default [
 			en: "Radium",
 			es: "Radio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 89,
@@ -799,6 +887,7 @@ export default [
 			en: "Actinium",
 			es: "Actinio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 90,
@@ -808,6 +897,7 @@ export default [
 			en: "Thorium",
 			es: "Torio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 91,
@@ -817,6 +907,7 @@ export default [
 			en: "Protactinium",
 			es: "Protactinio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 92,
@@ -826,6 +917,7 @@ export default [
 			en: "Uranium",
 			es: "Uranio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 93,
@@ -835,6 +927,7 @@ export default [
 			en: "Neptunium",
 			es: "Neptunio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 94,
@@ -844,6 +937,7 @@ export default [
 			en: "Plutonium",
 			es: "Plutonio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 95,
@@ -853,6 +947,7 @@ export default [
 			en: "Americium",
 			es: "Americio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 96,
@@ -862,6 +957,7 @@ export default [
 			en: "Curium",
 			es: "Curio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 97,
@@ -871,6 +967,7 @@ export default [
 			en: "Berkelium",
 			es: "Berkelio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 98,
@@ -880,6 +977,7 @@ export default [
 			en: "Californium",
 			es: "Californio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 99,
@@ -889,6 +987,7 @@ export default [
 			en: "Einsteinium",
 			es: "Einstenio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 100,
@@ -898,6 +997,7 @@ export default [
 			en: "Fermium",
 			es: "Fermio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 101,
@@ -907,6 +1007,7 @@ export default [
 			en: "Mendelevium",
 			es: "Mendelevio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 102,
@@ -916,6 +1017,7 @@ export default [
 			en: "Nobelium",
 			es: "Nobelio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 103,
@@ -925,6 +1027,7 @@ export default [
 			en: "Lawrencium",
 			es: "Laurencio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 104,
@@ -934,6 +1037,7 @@ export default [
 			en: "Rutherfordium",
 			es: "Rutherfordio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 105,
@@ -943,6 +1047,7 @@ export default [
 			en: "Dubnium",
 			es: "Dubnio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 106,
@@ -952,6 +1057,7 @@ export default [
 			en: "Seaborgium",
 			es: "Seaborgio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 107,
@@ -961,6 +1067,7 @@ export default [
 			en: "Bohrium",
 			es: "Bohrio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 108,
@@ -970,6 +1077,7 @@ export default [
 			en: "Hassium",
 			es: "Hassio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 109,
@@ -979,6 +1087,7 @@ export default [
 			en: "Meitnerium",
 			es: "Meitnerio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 110,
@@ -988,6 +1097,7 @@ export default [
 			en: "Darmstadtium",
 			es: "Darmstadtio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 111,
@@ -997,6 +1107,7 @@ export default [
 			en: "Roentgenium",
 			es: "Roentgenio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 112,
@@ -1006,6 +1117,7 @@ export default [
 			en: "Copernicium",
 			es: "Copernicio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 113,
@@ -1015,6 +1127,7 @@ export default [
 			en: "Nihonium",
 			es: "Nihonio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 114,
@@ -1024,6 +1137,7 @@ export default [
 			en: "Flerovium",
 			es: "Flerovio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 115,
@@ -1033,6 +1147,7 @@ export default [
 			en: "Moscovium",
 			es: "Moscovio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 116,
@@ -1042,6 +1157,7 @@ export default [
 			en: "Livermorium",
 			es: "Livermorio",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 117,
@@ -1051,6 +1167,7 @@ export default [
 			en: "Tennessine",
 			es: "Tenesino",
 		},
+		src: ''
 	},
 	{
 		atomicNumber: 118,
@@ -1060,5 +1177,6 @@ export default [
 			en: "Oganesson",
 			es: "Oganeson",
 		},
+		src: ''
 	},
 ];
