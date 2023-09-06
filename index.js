@@ -1,6 +1,6 @@
 import elements from "./mock-data.js"
 
-let currLanguage = 'es';
+let currLanguage = 'en';
 const target = document.getElementById("app");
 const nameDisplay = document.getElementById("display");
 const langButton = document.getElementById("toggleLang");
