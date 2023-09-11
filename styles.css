@@ -104,7 +104,7 @@
     cursor: pointer;
 
     background-color: grey;
-    border: 2px solid black;
+    border: 3px ridge black;
 }
 
 .row-number {
@@ -135,6 +135,41 @@
 .shake-x {
     animation: shakeX 0.5s 2;
     border-color: red;
+}
+
+#answers {
+    width: 12vw;
+    height: 6vw;
+    background-color: black;
+    position: absolute;
+    left: 25vw;
+    top: 3vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1px 8px 19px 6px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 1px 8px 19px 6px rgba(0,0,0,0.67);
+    -moz-box-shadow: 1px 8px 19px 6px rgba(0,0,0,0.67);
+    border: 3px ridge rgb(0, 0, 0);
+}
+
+#right-answers,
+#wrong-answers {
+    width: 4.5vw;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 5px ridge rgb(199, 194, 194);
+}
+
+#wrong-answers {
+    background-color: rgb(81, 14, 14);
+}
+
+#right-answers {
+    background-color: rgb(128, 143, 128);
 }
 
 @media (min-width: 1440px) {

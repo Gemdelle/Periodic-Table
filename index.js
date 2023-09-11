@@ -6,11 +6,29 @@ const nameDisplay = document.getElementById("display");
 const langButton = document.getElementById("toggleLang");
 const skip = document.getElementById("skip");
 const availableElements = elements.slice();
-const right_answers = getElementById("right-answers"); 
 
 let currentElement = generateRandomElement();
 let count_right_answers = 0;
 let count_wrong_answers = 0;
+
+// Función para cargar las respuestas correctas e incorrectas en 0
+document.addEventListener("DOMContentLoaded", () => {
+  initializeScreen(); // Llama a la función de inicialización cuando la página esté lista
+});
+
+function initializeScreen() {
+  count_right_answers = 0;
+  count_wrong_answers = 0;
+  updateAnswerCount(); // Actualiza la pantalla con los valores iniciales
+}
+
+function updateAnswerCount() {
+  const rightAnswersElement = document.getElementById("right-answers");
+  const wrongAnswersElement = document.getElementById("wrong-answers");
+
+  rightAnswersElement.textContent = `Right\n${count_right_answers}`;
+  wrongAnswersElement.textContent = `Wrong\n${count_wrong_answers}`;
+}
 
 function generateRandomElement() {
   if(availableElements.length === 0){
@@ -24,36 +42,34 @@ function generateRandomElement() {
   }
 }
 
-function answers(event) {
-  const el = event.currentTarget;
-  const clickedElement = Number(el.dataset.element);
-  if(currentElement.atomicNumber === clickedElement){
-    count_right_answers += 1;
-  }
-
-  else {
-    count_wrong_answers += 1;
-  }
-}
-
 function handleElementClick(event) {
   const el = event.currentTarget;
   const clickedElement = Number(el.dataset.element);
-  if(currentElement.atomicNumber === clickedElement){
+  if (currentElement.atomicNumber === clickedElement) {
     const index = availableElements.findIndex((elem) => elem.atomicNumber === currentElement.atomicNumber);
     availableElements.splice(index, 1);
 
-    createSymbolElement(el, currentElement)
+    createSymbolElement(el, currentElement);
     currentElement = generateRandomElement();
     el.removeEventListener("click", handleElementClick);
-  }
-  else {
+
+    count_right_answers += 1;
+
+    // Llamar a updateAnswerCount para actualizar los contadores en la pantalla
+    updateAnswerCount();
+  } else {
     el.classList.add("shake-x");
     setTimeout(() => {
       el.classList.remove("shake-x");
     }, 500);
+
+    count_wrong_answers += 1;
+
+    // Llamar a updateAnswerCount para actualizar los contadores en la pantalla
+    updateAnswerCount();
   }
 }
+
 
 function createRow() {
   const row = document.createElement("DIV");
