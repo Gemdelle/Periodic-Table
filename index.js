@@ -6,7 +6,11 @@ const nameDisplay = document.getElementById("display");
 const langButton = document.getElementById("toggleLang");
 const skip = document.getElementById("skip");
 const availableElements = elements.slice();
+const right_answers = getElementById("right-answers"); 
+
 let currentElement = generateRandomElement();
+let count_right_answers = 0;
+let count_wrong_answers = 0;
 
 function generateRandomElement() {
   if(availableElements.length === 0){
@@ -17,6 +21,18 @@ function generateRandomElement() {
     nameDisplay.textContent = availableElements[randomIndex].name[currLanguage];
 
     return availableElements[randomIndex];
+  }
+}
+
+function answers(event) {
+  const el = event.currentTarget;
+  const clickedElement = Number(el.dataset.element);
+  if(currentElement.atomicNumber === clickedElement){
+    count_right_answers += 1;
+  }
+
+  else {
+    count_wrong_answers += 1;
   }
 }
 
